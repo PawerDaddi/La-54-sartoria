@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital@1&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+
+    background: #ffffff;
+
+}
+
+.menu,
+a,
+.button {
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #dee5ec;
+    text-decoration: none;
+
+}
+
+header {
+
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+    padding: 30px 10%;
+}
+
+
+.menu {
+
+    list-style: none; 
+    
+}
+
+.menu li{
+
+    display: inline-block;
+    padding: 0 20px;
+    
+}
+
+.menu li a {
+
+    transition: all .3s ease;
+    color: #000000;
+}
+
+.menu a:hover {
+
+    color:rgb(189, 59, 145);
+}
+
+.button {
+
+    padding: 9px 25px;
+    background: #2c6fbd;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.button:hover {
+    background: #194e8b;
+}
+
+#nome {
+    color:#bd3b91
+
+}
+
+.about1 {
+    font-family: 'Bitter';
+    font-size: 30px;
+    text-align: left;
+    width: 600px;
+
+    
+}
+
+
+.about2{
+    margin-left:10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#MycTitle{
+    color:#bd3b91;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#MycParag{
+
+    font-family: "Bitter";
+    font-size: 25px;
+    text-align: center;
+    margin-top:50px;
+    
+}
+
+.Abiti{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 2%;
+    margin-top: 5%;
+
+}
+
+.CardAbiti{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.NAbiti{
+
+    font-size: 30px;
+    color: #bd3b91;
+
+}
+#TipoAbito{
+
+    margin-top:4%;
+    font-family: "Bitter";
+    font-size: 40px;
+    color: rgb(58, 58, 197);
+    text-align: center;
+}
+
+#TContatti{
+
+    position: relative;
+    left: 850px;
+    color: #bd3b91;
+    font-size: 50px;
+}
+
+.PContatti{
+
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    left: 30px;
+
+}
+
